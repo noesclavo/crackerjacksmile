@@ -5,4 +5,4 @@ FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
 
 # Expose port 80, the default HTTP port (optional, good practice)
-EXPOSE 80
+EXPOSE 8080
